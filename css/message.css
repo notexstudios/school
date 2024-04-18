@@ -1,0 +1,106 @@
+/*-------------------Teacher Section Start bb---------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #191223;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.Container-teacher{
+  margin-top: 10%;
+  
+}
+
+.Container-teacher h1{
+  
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.teacher{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.teacher .teacher-member{
+  background:  #fff;;
+  margin: 1%;
+  width: 30%;
+  padding: 20px;
+  line-height: 20px;
+  color: #191223;  
+  position: relative;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 1rem #387483;
+  justify-content: center;
+}
+
+.teacher .teacher-member h3{
+  color: #191223;
+  font-size: 26px;
+  margin-top: 50px;
+  line-height: 25px;
+}
+
+.teacher .teacher-member p.post{
+  color: #191223;
+  margin: 12px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.teacher .teacher-member .teacher-img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background:  #56bcd5;
+}
+
+.teacher .teacher-member .teacher-img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border:none;
+  border-radius: 50%;
+}
+
+/*-------------------Teacher Section End bb-------------------*/
+
+/* responsive sc */
+
+@media (width<=600px){
+
+
+  .teacher .teacher-member{
+    font-size: .75rem;
+    width:100%;
+    border: none;
+    border-bottom: 1px solid #3333333d;    
+    margin-top: 70px;
+
+  }
+
+  .teacher{
+    margin-top: 390px;
+    display: block;
+    bottom:-350px;
+
+  }
+}

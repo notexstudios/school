@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Courgette&display=swap');
+
+
+body{
+  background: var(--secondClrbg);
+}
+
+main.first-main{
+  z-index: -1;
+  text-align: center;
+  align-items: center;
+
+}
+
+div.hero-section{
+  position: relative;
+}
+
+main div.main-div{
+  z-index: 0;
+  height:100vh;
+  width: 100%;
+  background-image: url(/img/school.jpg);
+  opacity: 80%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  text-align: center;
+  
+}
+
+div.main-im{
+  display: flex;
+  position: absolute;
+  top: -1rem;
+  width: 100%;;
+  text-align: center;
+  justify-content: center;
+}
+
+img.main-background-img{
+  position: absolute;
+  object-fit: cover;
+  top:-130px;
+  width: 100%;
+  opacity: 0.45;
+  overflow-x: hidden;
+  overflow: hidden;
+}
+
+
+h1{
+  display: inline;
+  font-family: 'Poppins', sans-serif, cursive;
+  font-weight: 800;
+  text-align: center;
+  font-size: 3rem;
+  color: var(--bg);
+  color:#fff;
+  text-shadow: 0 0 .5rem #0f1a29;
+  width: 100%;
+  text-wrap: wrap;
+  animation: slideTop .6s ease;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16rem;
+}
+
+div.bottom-hero{
+  position: absolute;
+  bottom: -140px;
+  background-color: #fff;
+  width:80%;
+  margin-left: 10%;
+  box-shadow: 0 0 .5rem #333;
+  height:fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  text-align:left;
+  border-radius: 3px;
+}
+
+div.hero-bottom-1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  width: 30%;
+  padding:1rem;
+  margin: 1rem;;
+  border-right: 1px solid #3333333d;
+}
+
+div#hero-bottom-a{
+  border-right: none;
+}
+
+@media (width<=600px){
+  h1{
+    font-size: 1.25rem;
+    margin-top: 25rem;
+  }
+
+  div.hero-bottom-1{
+    font-size: .75rem;
+    width:90%;
+    border: none;
+    border-bottom: 1px solid #3333333d;
+  }
+
+  div.bottom-hero{
+    display: block;
+    bottom:-350px;
+  }
+}
