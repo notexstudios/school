@@ -9,7 +9,7 @@
 }
 
 body{
-  background: #191223;
+  background: #fff;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -23,12 +23,13 @@ body{
   font-size: 52px;
   margin-bottom: 60px;
   text-align: center;
+  width: 86%;
 }
 
 .teacher{
   display: flex;
   justify-content: center;
-  width: auto;
+  width: 100%;
   text-align: center;
   flex-wrap: wrap;
 }
@@ -36,14 +37,14 @@ body{
 .teacher .teacher-member{
   background:  #fff;;
   margin: 1%;
-  width: 30%;
+  width: 31%;
   padding: 20px;
   line-height: 20px;
   color: #191223;  
   position: relative;
   border: none;
   border-radius: 10px;
-  box-shadow: 0 0 1rem #387483;
+  box-shadow: 0 0 1rem #3333333d;
   justify-content: center;
 }
 
@@ -70,7 +71,7 @@ body{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background:  #56bcd5;
+  background:  #3333336b;
 }
 
 .teacher .teacher-member .teacher-img img{
@@ -98,7 +99,7 @@ body{
   }
 
   .teacher{
-    margin-top: 390px;
+    margin-top: 100px;
     display: block;
     bottom:-350px;
 

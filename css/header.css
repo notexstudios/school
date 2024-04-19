@@ -20,8 +20,8 @@ span{
 /* root variables decleration sc */
 
 :root {
-  --bg: #30303a;
-  --secondClrBg: #c0c0e21b;
+  --bg: #ffffff;
+  --secondClrBg: #333;
   --cl: #56bcd5;
   --fontClr: #191223f6;
   --fontClr2: #fff;
@@ -50,7 +50,7 @@ section {
 
 /* body background color sc */
 body{
-  background-color: var(--bg);
+  background-color: var(--fontClr2);
 }
 
 /* ------------ Landing Page Header section sc----------- */
@@ -72,7 +72,8 @@ header {
   padding-top:15px;
   animation: slideBottom .6s ease forwards;
   animation-delay: calc(.001s * var(--i));
-  box-shadow: 0 0 1rem var(--bg) ;
+  box-shadow: 0 0 10rem var(--secondClrBg) ;
+  border-bottom: .5px solid #b3a9a9;
 }
 
 

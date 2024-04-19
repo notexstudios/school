@@ -3,7 +3,7 @@
 
 
 body{
-  background: var(--secondClrbg);
+  background: #fff;
 }
 
 main.first-main{
@@ -19,9 +19,9 @@ div.hero-section{
 
 main div.main-div{
   z-index: 0;
-  height:100vh;
+  height:95vh;
   width: 100%;
-  background-image: url(/img/school.jpg);
+  background-image: url(/img/bg.jpg);
   opacity: 80%;
   background-size:cover;
   background-repeat: no-repeat;
@@ -57,7 +57,6 @@ h1{
   font-weight: 800;
   text-align: center;
   font-size: 3rem;
-  color: var(--bg);
   color:#fff;
   text-shadow: 0 0 .5rem #0f1a29;
   width: 100%;
@@ -70,16 +69,16 @@ h1{
 
 div.bottom-hero{
   position: absolute;
-  bottom: -140px;
+  top: 85dvh;
   background-color: #fff;
-  width:80%;
-  margin-left: 10%;
-  box-shadow: 0 0 .5rem #333;
+  width:86%;
+  margin-left: 7%;
+  box-shadow: 0 0 .5rem #33333363;
   height:fit-content;
   display: flex;
   justify-content: space-evenly;
   text-align:left;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 div.hero-bottom-1{
@@ -113,3 +112,83 @@ div#hero-bottom-a{
     bottom:-350px;
   }
 }
+
+
+/* About section css */
+
+:root{
+  --section-bg: #fff;
+  --sec-cl: #191223;
+}
+
+section.about-us{
+  background-color: var(--section-bg);
+  margin: 0;
+  margin-top: 18%;
+  width:86%;
+  margin-left: 7%;
+  display: flex;
+  padding:0;
+}
+
+div.about-left{
+  width:50%;
+}
+
+div.about-right{
+  width:50%;
+}
+
+img.about-main-img{
+  width: 100%;
+}
+
+h3.about-head{
+  color:#777;
+}
+
+h2.about-headline-text{
+  font-size: 2.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--sec-cl);
+}
+
+.about-left p{
+  font-size: 1.25rem;
+}
+
+button.about-button{
+  margin-top: 20px;
+  background-color: var(--cl);
+  width: 140px;
+  height:40px;
+  border-radius: 2px;
+  text-align: center;
+  align-content: center;
+  border: none;
+}
+
+button.about-button span{
+  color: var(--sec-cl);
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* responsive */
+@media (width<=600px){
+  section.about-us{
+    margin-top: 100%;
+    display: block;
+  }
+
+  div.about-left{
+    width:100%;
+  }
+  
+  div.about-right{
+    width:100%;
+  }
+}
+
+/* about section css end */
